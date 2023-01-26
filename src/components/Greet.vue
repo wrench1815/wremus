@@ -1,21 +1,18 @@
-<script setup lang="ts">
-import { ref } from "vue";
-import { invoke } from "@tauri-apps/api/tauri";
-
-const greetMsg = ref("");
-const name = ref("");
-
-async function greet() {
-  // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
-  greetMsg.value = await invoke("greet", { name: name.value });
-}
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="card">
-    <input id="greet-input" v-model="name" placeholder="Enter a name..." />
-    <button type="button" @click="greet()">Greet</button>
+  <div class="card w-96 shadow-flat">
+    <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">
+        Shoes!
+        <div class="badge badge-secondary">NEW</div>
+      </h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <div class="card-actions justify-end">
+        <div class="badge badge-outline">Fashion</div>
+        <div class="badge badge-outline">Products</div>
+      </div>
+    </div>
   </div>
-
-  <p>{{ greetMsg }}</p>
 </template>

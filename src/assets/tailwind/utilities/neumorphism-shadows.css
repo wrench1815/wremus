@@ -1,0 +1,169 @@
+@layer utilities {
+  /* primary */
+  .shadow-flat-primary {
+    background: #3742fa;
+    box-shadow: 20px 20px 60px #2f38d5, -20px -20px 60px #3f4cff;
+  }
+
+  .shadow-concave-primary {
+    background: linear-gradient(145deg, #323be1, #3b47ff);
+    box-shadow: 20px 20px 60px #2f38d5, -20px -20px 60px #3f4cff;
+  }
+
+  .shadow-convex-primary {
+    background: linear-gradient(145deg, #3b47ff, #323be1);
+    box-shadow: 20px 20px 60px #2f38d5, -20px -20px 60px #3f4cff;
+  }
+
+  .shadow-pressed-primary {
+    background: #3742fa;
+    box-shadow: inset 20px 20px 60px #2f38d5, inset -20px -20px 60px #3f4cff;
+  }
+
+  /* secondary */
+  .shadow-flat-secondary {
+    background: #ff6b81;
+    box-shadow: 20px 20px 60px #d95b6e, -20px -20px 60px #ff7b94;
+  }
+
+  .shadow-concave-secondary {
+    background: linear-gradient(145deg, #e66074, #ff728a);
+    box-shadow: 20px 20px 60px #d95b6e, -20px -20px 60px #ff7b94;
+  }
+
+  .shadow-convex-secondary {
+    background: linear-gradient(145deg, #ff728a, #e66074);
+    box-shadow: 20px 20px 60px #d95b6e, -20px -20px 60px #ff7b94;
+  }
+
+  .shadow-pressed-secondary {
+    background: #ff6b81;
+    box-shadow: inset 20px 20px 60px #d95b6e, inset -20px -20px 60px #ff7b94;
+  }
+
+  /* accent */
+  .shadow-flat-accent {
+    background: #ff6348;
+    box-shadow: 20px 20px 60px #d9543d, -20px -20px 60px #ff7253;
+  }
+
+  .shadow-concave-accent {
+    background: linear-gradient(145deg, #e65941, #ff6a4d);
+    box-shadow: 20px 20px 60px #d9543d, -20px -20px 60px #ff7253;
+  }
+
+  .shadow-convex-accent {
+    background: linear-gradient(145deg, #ff6a4d, #e65941);
+    box-shadow: 20px 20px 60px #d9543d, -20px -20px 60px #ff7253;
+  }
+
+  .shadow-pressed-accent {
+    background: #ff6348;
+    box-shadow: inset 20px 20px 60px #d9543d, inset -20px -20px 60px #ff7253;
+  }
+
+  /* info */
+  .shadow-flat-info {
+    background: #1e90ff;
+    box-shadow: 20px 20px 60px #1a7ad9, -20px -20px 60px #23a6ff;
+  }
+
+  .shadow-concave-info {
+    background: linear-gradient(145deg, #1b82e6, #209aff);
+    box-shadow: 20px 20px 60px #1a7ad9, -20px -20px 60px #23a6ff;
+  }
+
+  .shadow-convex-info {
+    background: linear-gradient(145deg, #209aff, #1b82e6);
+    box-shadow: 20px 20px 60px #1a7ad9, -20px -20px 60px #23a6ff;
+  }
+
+  .shadow-pressed-info {
+    background: #1e90ff;
+    box-shadow: inset 20px 20px 60px #1a7ad9, inset -20px -20px 60px #23a6ff;
+  }
+
+  /* success */
+  .shadow-flat-success {
+    background: #2ed573;
+    box-shadow: 20px 20px 60px #27b562, -20px -20px 60px #35f584;
+  }
+
+  .shadow-concave-success {
+    background: linear-gradient(145deg, #29c068, #31e47b);
+    box-shadow: 20px 20px 60px #27b562, -20px -20px 60px #35f584;
+  }
+
+  .shadow-convex-success {
+    background: linear-gradient(145deg, #31e47b, #29c068);
+    box-shadow: 20px 20px 60px #27b562, -20px -20px 60px #35f584;
+  }
+
+  .shadow-pressed-success {
+    background: #2ed573;
+    box-shadow: inset 20px 20px 60px #27b562, inset -20px -20px 60px #35f584;
+  }
+
+  /* warning */
+  .shadow-flat-warning {
+    background: #ffa502;
+    box-shadow: 20px 20px 60px #d98c02, -20px -20px 60px #ffbe02;
+  }
+
+  .shadow-concave-warning {
+    background: linear-gradient(145deg, #e69502, #ffb102);
+    box-shadow: 20px 20px 60px #d98c02, -20px -20px 60px #ffbe02;
+  }
+
+  .shadow-convex-warning {
+    background: linear-gradient(145deg, #ffb102, #e69502);
+    box-shadow: 20px 20px 60px #d98c02, -20px -20px 60px #ffbe02;
+  }
+
+  .shadow-pressed-warning {
+    background: #ffa502;
+    box-shadow: inset 20px 20px 60px #d98c02, inset -20px -20px 60px #ffbe02;
+  }
+
+  /* error */
+  .shadow-flat-error {
+    background: #ff4757;
+    box-shadow: 20px 20px 60px #d93c4a, -20px -20px 60px #ff5264;
+  }
+
+  .shadow-concave-error {
+    background: linear-gradient(145deg, #e6404e, #ff4c5d);
+    box-shadow: 20px 20px 60px #d93c4a, -20px -20px 60px #ff5264;
+  }
+
+  .shadow-convex-error {
+    background: linear-gradient(145deg, #ff4c5d, #e6404e);
+    box-shadow: 20px 20px 60px #d93c4a, -20px -20px 60px #ff5264;
+  }
+
+  .shadow-pressed-error {
+    background: #ff4757;
+    box-shadow: inset 20px 20px 60px #d93c4a, inset -20px -20px 60px #ff5264;
+  }
+
+  /* white */
+  .shadow-flat-white {
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  }
+
+  .shadow-concave-white {
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  }
+
+  .shadow-convex-white {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  }
+
+  .shadow-pressed-white {
+    background: #ffffff;
+    box-shadow: inset 20px 20px 60px #d9d9d9, inset -20px -20px 60px #ffffff;
+  }
+}
